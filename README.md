@@ -2,7 +2,7 @@
 
 LOC-FLOW Notebook is a Jupyter Notebook-based workflow framework for automated earthquake catalog construction from continuous waveform data.
 
-It reorganizes the original LOC-FLOW processing pipeline into an interactive and modular environment while maintaining the original earthquake detection and location algorithms. LOC-FLOW Notebook is fully compatible with the original command-line implementation of LOC-FLOW and operates independently without affecting existing workflows.
+It reorganizes the original LOC-FLOW processing pipeline into an interactive and modular environment while preserving the original earthquake detection and location algorithms. Processing steps are explicitly presented, while repetitive data-processing components are encapsulated to improve usability and maintain workflow transparency. The Notebook is fully compatible with the original command-line implementation and operates independently without affecting existing workflows.
 
 ## User Version
 
