@@ -14,7 +14,8 @@ Designed for small- to medium-scale datasets and rapid workflow testing.
 
 **Features:**
 - Simplified interface
-- Encapsulated Python modules
+- Detailed step-by-step workflow presentation
+- Data-processing functions are encapsulated to reduce implementation complexity while maintaining workflow transparency
 - Standardized input/output management
 
 A small continuous waveform dataset from the original LOC-FLOW example is included for installation and execution testing, which can typically be completed within approximately 10 minutes.
