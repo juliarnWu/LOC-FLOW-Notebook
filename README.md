@@ -2,48 +2,58 @@
 
 LOC-FLOW Notebook is a Jupyter Notebook-based workflow framework for automated earthquake catalog construction from continuous waveform data.
 
-It reorganizes the original LOC-FLOW processing pipeline into an interactive and modular environment while preserving the original earthquake detection and location algorithms. Processing steps are explicitly presented, while repetitive data-processing components are encapsulated to improve usability and maintain workflow transparency. The Notebook is fully compatible with the original command-line implementation and operates independently without affecting existing workflows.
+It reorganizes the original LOC-FLOW processing pipeline into an interactive and modular environment while preserving the original earthquake detection and location algorithms. The workflow is presented through explicit processing steps, while repetitive data-processing procedures are encapsulated into independent Python modules to simplify implementation and maintain workflow transparency.
 
-## User Version
+Unlike the original command-line workflow, LOC-FLOW Notebook allows users to inspect intermediate results, adjust parameters interactively, and execute individual processing stages when required. The modular design also provides a flexible framework for further customization and extension for specific research applications.
 
-The User Version is designed for routine earthquake catalog construction and includes two editions for different dataset scales.
+LOC-FLOW Notebook is fully compatible with the original command-line implementation and operates independently without affecting existing LOC-FLOW workflows.
+
+---
+
+## Versions
+
+LOC-FLOW Notebook provides two editions for different dataset scales.
 
 ### LOC-FLOW Notebook Lite
 
-Designed for small- to medium-scale datasets and rapid workflow testing.
+Designed for small- to medium-scale datasets and workflow testing.
 
-**Features:**
-- Simplified interface
-- Detailed step-by-step workflow presentation
-- Data-processing functions are encapsulated to reduce implementation complexity while maintaining workflow transparency
-- Standardized input/output management
+Features:
 
-A small continuous waveform dataset from the original LOC-FLOW example is included for installation and execution testing, which can typically be completed within approximately 10 minutes.
+- Simplified workflow interface
+- Complete processing demonstration
+- Standardized data input and output
+- Suitable for routine earthquake catalog construction
+
+A small continuous waveform dataset from the original LOC-FLOW example is included for installation and execution testing.
+
+The complete workflow can typically be completed within approximately 10 minutes.
+
+---
 
 ### LOC-FLOW Notebook LScale
 
-Designed for large-scale earthquake sequence processing and high-volume seismic datasets.
+Designed for large-scale earthquake sequence processing.
 
-**Features:**
-- Large-scale batch processing
+Features:
+
+- Large-scale waveform batch processing
 - Optimized data organization
-- Support for large numbers of events and phase observations
+- Support for large numbers of phase observations and earthquake events
 
-A three-day Kumamoto phase-picking dataset (>6000 events, 54 stations) is included for large-scale workflow testing, which can typically be completed within approximately 30 minutes.
+A three-day Kumamoto earthquake sequence dataset (>6000 detected events, 54 stations) is included for large-scale workflow testing.
 
-## Research Version
+The complete workflow can typically be completed within approximately 30 minutes.
 
-### LOC-FLOW Notebook Lite-Research
+---
 
-The Lite-Research version preserves the original Notebook-based implementation developed during the construction of LOC-FLOW Notebook.
+## Compatibility
 
-Unlike the User Version, functions and classes are directly implemented within the Notebook without Python module encapsulation. Therefore, some parameters, function structures, and processing procedures differ from the User Version.
+LOC-FLOW Notebook preserves the original LOC-FLOW processing framework and algorithms.
 
-It is provided for workflow inspection and further customization.
+The Notebook version and the original command-line implementation can be used independently according to user requirements.
 
-## Documentation
-
-Detailed installation instructions, workflow descriptions, and parameter explanations will be provided in the LOC-FLOW Notebook User Guide.
+---
 
 ## Availability
 
